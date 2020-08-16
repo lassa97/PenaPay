@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PeñaPay</string>
+
+    <string name="createHint">Create an event, a profile or an item</string>
+    <string name="createEventHint">Create an event</string>
+    <string name="createItemHint">Create an item</string>
+    <string name="createUserHint">Create a user</string>
+    <string name="eventListHint">Show event info</string>
+
+    <string name="titleHint">Title</string>
+    <string name="date">%1$02d/%2$02d/%3$4d</string>
+    <string name="newEventHint">Create a new event</string>
+
+    <string name="typeHint">Type</string>
+    <string name="descriptionHint">Description</string>
+    <string name="priceHint">Price</string>
+    <string name="newItemHint">Create a new item</string>
+
+    <string name="nameHint">Name</string>
+    <string name="surnameHint">Surname</string>
+    <string name="newUserHint">Create a new profile</string>
+
+    <string name="addHint">Add a user or an item</string>
+    <string name="addItemHint">Add a new item</string>
+    <string name="addUserHint">Add a new user</string>
+
+    <string name="addGuestHint">Add guests to the event</string>
+
+    <string name="addOrderHint">Add orders to the event</string>
+
+    <string name="backHint">Back to main</string>
+
+</resources>

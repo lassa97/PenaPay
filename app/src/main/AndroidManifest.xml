@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lassa97.penapay">
+
+    <application
+        android:name=".PeñaPay"
+        android:allowBackup="true"
+        android:icon="@mipmap/penapay"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/penapay"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.AddOrderActivity"></activity>
+        <activity android:name=".Activities.CreateItem" />
+        <activity android:name=".Activities.AddGuestActivity" />
+        <activity android:name=".Activities.EventActivity" />
+        <activity android:name=".Activities.CreateEvent" />
+        <activity android:name=".Activities.CreateUser" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
